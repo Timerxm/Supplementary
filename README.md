@@ -18,12 +18,8 @@
 ---
 
 <div align="center">
-<p align="center">
-  <img width="5370" height="1470" alt="data4" src="https://github.com/user-attachments/assets/e5cfec50-52d1-4118-be54-f76728306b7b" />
-</p>
+  <img src="https://github.com/user-attachments/assets/e5cfec50-52d1-4118-be54-f76728306b7b" alt="Figure 1" style="max-width:100%;">
   <p align="left"><b>Figure 1:</b> Radiometric realism validation of LLSD. (a) Intensity and (b) SNR distributions of LLSD strictly align with real Jilin-1 acquisitions. Crucially, the noise variance profiles (c) exhibit nearly identical linear slopes between synthetic and real data, confirming that our pipeline faithfully replicates the intrinsic physical behavior and hardware gain of the actual sensors.</p>
-
-  
 </div>
 
 ---
@@ -62,7 +58,7 @@
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | PSNR (dB) | 22.91 | 23.35 | 23.61 | **23.80** | 23.69 | 23.42 |
 
-  <p align="left"><b>Table 3:</b> Sensitivity analysis of the Laplacian loss weight ($\lambda_{Lap}$). We evaluate $\lambda_{Lap} \in [1, 100]$ to balance gradient magnitudes second-order structural supervision. The inverted-U curve validates that $\lambda_{Lap}=50$ optimally aligns high-frequency gradients without over-amplifying sensor noise, achieving the peak PSNR of 23.80 dB.</p>
+  <p align="left"><b>Table 3:</b> Sensitivity analysis of the Laplacian loss weight ($\lambda_{Lap}$). We evaluate $\lambda_{Lap} \in [1, 100]$ to balance gradient magnitudes and second-order structural supervision. The inverted-U curve validates that $\lambda_{Lap}=50$ optimally aligns high-frequency gradients without over-amplifying sensor noise, achieving the peak PSNR of 23.80 dB.</p>
 
 </div>
 
@@ -82,7 +78,7 @@
 | ReDDiT (2025 CVPR) | Diffusion | 17.434 | 232.460 | 70.80 | 14.73 |
 | **ULSIR (Ours)** | **Freq-CNN (Dual)** | **14.141** | **29.114** | **64.30** | **23.80** |
 
-  <p align="left"><b>Table 4:</b> Quantitative comparison between ULSIR and SOTA Transformer/Diffusion baselines. Results are measured on $256 \times 256$ patches. ULSIR outperfroms heavy Transformers in both PSNR (+1.23 dB over LLFormer) and inference latency. Notably, compared to Diffusion models (e.g., Diff-Retinex++), ULSIR achieves superior fidelity with only $\sim1/10$ of the FLOPs (29.1G vs. 308.7G), effectively avoiding generative hallucinations and ensuring strict geographical fidelity.</p>
+  <p align="left"><b>Table 4:</b> Quantitative comparison between ULSIR and SOTA Transformer/Diffusion baselines. Results are measured on $256 \times 256$ patches. ULSIR outperformers heavy Transformers in both PSNR (+1.23 dB over LLFormer) and inference latency. Notably, compared to Diffusion models (e.g., Diff-Retinex++), ULSIR achieves superior fidelity with only $\sim1/10$ of the FLOPs (29.1G vs. 308.7G), effectively avoiding generative hallucinations and ensuring strict geographical fidelity.</p>
 
 
 </div>
@@ -91,7 +87,7 @@
 <div align="center">
 
   <img width="1421" height="404" alt="diffusion" src="https://github.com/user-attachments/assets/ecb6c758-65d7-40ce-be57-3627cee7ef0a" />
-  <p align="left"><b>Figure 3:</b> Visual comparison of ultra-low-light satellite restoration. Compared to state-of-the-art baselines, ULSIR achieves the highest PSNR (23.80 dB) and restores sharp structural details (e.g., vehicles and road textures) without distortions. Notably, diffusion-based methods (Diff-Retinex++, ReDDiT) introduce severe inconsistent textures under extreme noise, while lightweight CNNs (DFFN, SCI++) fail to recover recognizable structures. ULSIR mathematically ensures strict geographical fidelity through its single-feed-forward dual-frequency design.</p>
+  <p align="left"><b>Figure 3:</b> Visual comparison of ultra-low-light satellite restoration. Compared to state-of-the-art baselines, ULSIR achieves the highest PSNR (23.80 dB) and restores sharp structural details (e.g., vehicles and road textures) without distortions. Notably, diffusion-based methods (Diff-Retinex++, ReDDiT) introduce severe texture inconsistencies under extreme noise, while lightweight CNNs (DFFN, SCI++) fail to recover recognizable structures. ULSIR mathematically ensures strict geographical fidelity through its single-feed-forward dual-frequency design.</p>
 
 
 </div>
