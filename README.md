@@ -54,6 +54,13 @@
 
 ---
 
+<div align="center">
+
+| $\lambda_{Lap}$ | 1 | 10 | 30 | **50 (Paper)** | 70 | 100 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| PSNR (dB) | 22.91 | 23.35 | 23.61 | **23.80** | 23.69 | 23.42 |
+
+  <p align="center"><b>Table 2:</b> Table 3. Sensitivity analysis of the Laplacian loss weight ($\lambda_{Lap}$). We evaluate $\lambda_{Lap} \in [1, 100]$ to balance gradient magnitudes between L1 reconstruction and second-order structural supervision. The inverted-U curve validates that $\lambda_{Lap}=50$ optimally aligns high-frequency gradients without over-amplifying sensor noise, achieving the peak PSNR of 23.80 dB.</p>
 
 
 
