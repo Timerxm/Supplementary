@@ -109,7 +109,7 @@
 | **ULSIR (Ours)** | **Freq-CNN (Dual)** | **14.141** | **29.114** | **64.30** | **23.80** | **2823.41** | **103.41** |
 
 
-  <p align="center"><b>Table 4:</b> Computational complexity and resource analysis. Evaluated on $256 \times 256$ patches, ULSIR successfully bypasses the memory explosions of Transformer-based methods (LLFormer/URWKV $>35$ GB), requiring only 2.8 GB for training. Furthermore, ULSIR achieves the highest PSNR (23.80 dB) with significantly lower inference memory (103.41 MB) and latency (64.30 ms), offering an optimal trade-off for satellite ground-station deployment.</p>
+  <p align="center"><b>Table 4:</b> Computational complexity and resource analysis. Evaluated on 256x256 patches, ULSIR successfully bypasses the memory explosions of Transformer-based methods (LLFormer/URWKV $>35$ GB), requiring only 2.8 GB for training. Furthermore, ULSIR achieves the highest PSNR (23.80 dB) with significantly lower inference memory (103.41 MB) and latency (64.30 ms), offering an optimal trade-off for satellite ground-station deployment.</p>
 
 
 
