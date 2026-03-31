@@ -89,7 +89,7 @@
 <div align="center">
 
   <img width="1421" height="404" alt="diffusion" src="https://github.com/user-attachments/assets/ecb6c758-65d7-40ce-be57-3627cee7ef0a" />
-  <p align="center"><b>Figure 3:</b> Visual comparison of ultra-low-light satellite restoration. Compared to state-of-the-art baselines, ULSIR achieves the highest PSNR (23.80 dB) and restores sharp structural details (e.g., vehicles and road textures) without distortions. Notably, diffusion-based methods (Diff-Retinex++, ReDDiT) introduce severe generative hallucinations and inconsistent textures under extreme noise, while lightweight CNNs (DFFN, SCI++) fail to recover recognizable structures. ULSIR mathematically ensures strict geographical fidelity through its single-feed-forward dual-frequency design.</p>
+  <p align="center"><b>Figure 3:</b> Visual comparison of ultra-low-light satellite restoration. Compared to state-of-the-art baselines, ULSIR achieves the highest PSNR (23.80 dB) and restores sharp structural details (e.g., vehicles and road textures) without distortions. Notably, diffusion-based methods (Diff-Retinex++, ReDDiT) introduce severe inconsistent textures under extreme noise, while lightweight CNNs (DFFN, SCI++) fail to recover recognizable structures. ULSIR mathematically ensures strict geographical fidelity through its single-feed-forward dual-frequency design.</p>
 
 
 </div>
