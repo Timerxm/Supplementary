@@ -11,15 +11,11 @@
 | URWKV | 2.248 | 18.335 | 479.02 | 23.25 |
 | **ULSIR (Ours)** | **14.141** | **29.114** | **64.30** | **23.80** |
 
-Table 1. Quantitative complexity and performance comparison. All methods are evaluated on $256 \times 256$ patches under identical hardware settings. ULSIR achieves the highest PSNR (23.80 dB) while maintaining an optimal balance between parameter count, FLOPs, and inference latency compared to SOTAs.
+<p align="center"><b>Table 1:</b> Quantitative complexity and performance comparison. All methods are evaluated on $256 \times 256$ patches under identical hardware settings. ULSIR achieves the highest PSNR (23.80 dB) while maintaining an optimal balance between parameter count, FLOPs, and inference latency compared to SOTAs.</p>
 
 </div>
 
 ---
-
-#### 2. Statistical Distribution
-
-We visualize the effectiveness of our alignment technique. The plot shows the statistical alignment of intensity distributions.
 
 <div align="center">
   <img width="2370" height="1770" alt="data" src="https://github.com/user-attachments/assets/d723ecb8-81e2-4346-8dec-7ba8bf2e5b1a" />
