@@ -18,7 +18,7 @@
 ---
 
 <div align="center">
-  <img width="2370" height="1770" alt="data" src="https://github.com/user-attachments/assets/d723ecb8-81e2-4346-8dec-7ba8bf2e5b1a" />
+  <img width="5370" height="1470" alt="data3" src="https://github.com/user-attachments/assets/65e17698-d0a6-4b05-9eb2-4a960dab04ea" />
   <p align="center"><b>Figure 1:</b> Comparison of probability densities between a real ultra-low-light satellite acquisition (Jilin-1) and a synthetic LLSD image. As explicitly detailed in the text, the synthetic distribution strictly matches actual hardware outputs, ensuring the radiometric realism of our dataset.</p>
 
   
