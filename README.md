@@ -11,7 +11,7 @@
 | URWKV | 2.248 | 18.335 | 479.02 | 23.25 |
 | **ULSIR (Ours)** | **14.141** | **29.114** | **64.30** | **23.80** |
 
-Table 1. Quantitative complexity and performance comparison. All methods are evaluated on $256 \times 256$ patches under identical hardware settings. ULSIR achieves the highest PSNR (23.80 dB) while maintaining an optimal balance between parameter count, FLOPs, and inference latency compared to heavy Transformer and Diffusion-based SOTAs.
+Table 1. Quantitative complexity and performance comparison. All methods are evaluated on $256 \times 256$ patches under identical hardware settings. ULSIR achieves the highest PSNR (23.80 dB) while maintaining an optimal balance between parameter count, FLOPs, and inference latency compared to SOTAs.
 
 </div>
 
