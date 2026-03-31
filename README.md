@@ -39,7 +39,7 @@
 | URWKV | Transformer-Var | 2.248 | 18.335 | 479.02 | 23.25 |
 | **ULSIR (Ours)** | **Freq-CNN (Dual)** | **14.141** | **29.114** | **64.30** | **23.80** |
 
-<p align="center"><b>Table 2:</b> Quantitative efficiency and performance comparison. All metrics are measured on $256 \times 256$ patches using a single GPU. ULSIR establishes an optimal trade-off, outperforming heavy Transformer-based SOTAs (e.g., URWKV, LLFormer) in speed and surpassing lightweight CNNs (e.g., SCI++, DFFN) by over 7.37 dB in PSNR.</p>
+<p align="left"><b>Table 2:</b> Quantitative efficiency and performance comparison. All metrics are measured on $256 \times 256$ patches using a single GPU. ULSIR establishes an optimal trade-off, outperforming heavy Transformer-based SOTAs (e.g., URWKV, LLFormer) in speed and surpassing lightweight CNNs (e.g., SCI++, DFFN) by over 7.37 dB in PSNR.</p>
 
 
 </div>
