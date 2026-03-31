@@ -46,7 +46,7 @@
 ---
 <div align="center">
   
-  <img width="4396" height="2588" alt="aligen10M" src="https://github.com/user-attachments/assets/fb29cc64-1e28-4c11-b08e-359b3c10bb67" />
+  <img width="4396" height="2588" alt="aligen8M" src="https://github.com/user-attachments/assets/637c6810-5162-43f5-9375-2f8f2dfb13b0" />
   <p align="center"><b>Figure 2:</b> Figure 2. Visualization of adaptive wavelet soft-thresholding ($t_k$). By visualizing intermediate LH/HL sub-bands, we demonstrate that $t_k$ acts as an effective separator: background noise is effectively zeroed out while structural boundaries remain entirely intact. This dynamic self-calibration prevents over-smoothing, ensuring that fine textures are preserved during the denoising process.</p>
 
 
