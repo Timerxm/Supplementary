@@ -97,6 +97,22 @@
 
 ---
 
+| Methods | Architecture Type | Params (M) | FLOPs (G) | Time (ms) | PSNR (dB) | Train GPU Memory (MB) | Test GPU Memory (MB) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| LEDNet | Pure CNN | 7.405 | 38.572 | 8.40 | 23.23 | 3790.43 | 415.06 |
+| RetinexFormer | Transformer | 4.817 | 51.055 | 59.67 | 22.95 | 17537.60 | 185.56 |
+| LLFormer | Transformer | 24.518 | 22.035 | 90.80 | 22.57 | 35137.23 | 331.05 |
+| DFFN | Freq-CNN | 2.577 | 15.965 | 10.68 | 16.43 | 3130.90 | 230.79 |
+| SCI++ | Pure CNN | 0.023 | 2.960 | 1.89 | 12.89 | 624.85 | 32.11 |
+| DarkIR | Freq CNN | 3.309 | 7.117 | 71.19 | 23.24 | 3585.94 | 116.57 |
+| URWKV | Transformer-Var | 2.248 | 18.335 | 479.02 | 23.25 | >40 G | 261.22 |
+| Diff-Retinex++ (2025 TPAMI) | Diffusion | 62.755 | 308.660 | 76.01 | 22.56 | - | - |
+| ReDDiT (2025 CVPR) | Diffusion | 17.434 | 232.460 | 70.80 | 14.73 | — | - |
+| **ULSIR (Ours)** | **Freq-CNN (Dual)** | **14.141** | **29.114** | **64.30** | **23.80** | **2823.41** | **103.41** |
+
+
+  <p align="center"><b>Table 4:</b> Computational complexity and resource analysis. Evaluated on $256 \times 256$ patches, ULSIR successfully bypasses the memory explosions of Transformer-based methods (LLFormer/URWKV $>35$ GB), requiring only 2.8 GB for training. Furthermore, ULSIR achieves the highest PSNR (23.80 dB) with significantly lower inference memory (103.41 MB) and latency (64.30 ms), offering an optimal trade-off for satellite ground-station deployment.</p>
+
 
 
   
