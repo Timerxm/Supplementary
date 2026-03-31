@@ -19,6 +19,8 @@
 
 <div align="center">
   <img width="2370" height="1770" alt="data" src="https://github.com/user-attachments/assets/d723ecb8-81e2-4346-8dec-7ba8bf2e5b1a" />
-  <p align="center"><b>Figure 1:</b> Statistical alignment of intensity distributions for real and synthetic data.</p>
+  <p align="center"><b>Figure 1:</b> Figure 1. Statistical Alignment of Intensity Distributions. Comparison of probability densities between a real ultra-low-light satellite acquisition (Jilin-1) and a synthetic LLSD image. As explicitly detailed in the text, the synthetic distribution strictly matches actual hardware outputs, ensuring the radiometric realism of our dataset.</p>
+
+  
 </div>
 
