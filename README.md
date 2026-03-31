@@ -32,9 +32,9 @@
 | LEDNet | Pure CNN | 7.405 | 38.572 | 8.40 | 23.23 |
 | LLFormer | Transformer | 24.518 | 22.035 | 90.80 | 22.95 |
 | RetinexFormer | Transformer | 4.817 | 51.055 | 59.67 | 22.57 |
-| DFFN | Freq-CNN | 2.577 | 15.965 | 10.68 | 16.43 |
+| DFFN | Pure CNN | 2.577 | 15.965 | 10.68 | 16.43 |
 | SCI++ | Pure CNN | 0.023 | 2.960 | 1.89 | 12.89 |
-| DarkIR | Freq CNN | 3.309 | 7.117 | 71.19 | 23.24 |
+| DarkIR | Pure CNN | 3.309 | 7.117 | 71.19 | 23.24 |
 | URWKV | Transformer-Var | 2.248 | 18.335 | 479.02 | 23.25 |
 | **ULSIR (Ours)** | **Freq-CNN (Dual)** | **14.141** | **29.114** | **64.30** | **23.80** |
 
