@@ -19,8 +19,7 @@
 
   <p align="center"><img src="https://github.com/user-attachments/assets/e5cfec50-52d1-4118-be54-f76728306b7b" alt="Figure 1" width="100%" /></p>
   <p align="left"><b>Figure 1:</b> Radiometric realism validation of LLSD. (a) Intensity and (b) SNR distributions of LLSD strictly align with real Jilin-1 acquisitions. Crucially, the noise variance profiles (c) exhibit nearly identical linear slopes between synthetic and real data, confirming that our pipeline faithfully replicates the intrinsic physical behavior and hardware gain of the actual sensors.</p>
-</div>
-
+  
 ---
 <div align="center">
   
