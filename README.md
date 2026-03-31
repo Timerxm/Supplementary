@@ -1,8 +1,3 @@
-# Supplementary### Quantitative and Statistical Results
-
-Here is a comparison of different low-light image enhancement methods on the LLSD dataset, as well as a statistical analysis of the intensity distributions.
-
----
 
 #### 1. Quantitative Comparison
 
@@ -30,6 +25,7 @@ Our proposed **ULSIR** method achieves competitive results with higher PSNR whil
 We visualize the effectiveness of our alignment technique. The plot shows the statistical alignment of intensity distributions.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/a3404721-f59b-4eb4-9eff-653e02ec56f0" alt="Statistical Alignment Chart" width="80%">
+  <img width="2370" height="1770" alt="data" src="https://github.com/user-attachments/assets/d723ecb8-81e2-4346-8dec-7ba8bf2e5b1a" />
   <p align="center"><b>Figure 1:</b> Statistical alignment of intensity distributions for real and synthetic data.</p>
 </div>
+
