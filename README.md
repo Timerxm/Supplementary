@@ -47,7 +47,7 @@
 ---
 <div align="center">
   
-  <img width="4396" height="2588" alt="aligen8M" src="https://github.com/user-attachments/assets/637c6810-5162-43f5-9375-2f8f2dfb13b0" />
+  <img alt="aligen8M" src="https://github.com/user-attachments/assets/637c6810-5162-43f5-9375-2f8f2dfb13b0" width="80%"/>
   <p align="left"><b>Figure 2:</b> Visualization of adaptive wavelet soft-thresholding ($t_k$). By visualizing intermediate LH/HL sub-bands, we demonstrate that $t_k$ acts as an effective separator: background noise is effectively zeroed out while structural boundaries remain entirely intact. This dynamic self-calibration prevents over-smoothing, ensuring that fine textures are preserved during the denoising process.</p>
 
 
@@ -89,7 +89,7 @@
 ---
 <div align="center">
 
-  <img width="1421" height="404" alt="diffusion" src="https://github.com/user-attachments/assets/ecb6c758-65d7-40ce-be57-3627cee7ef0a" />
+  <img alt="diffusion" src="https://github.com/user-attachments/assets/ecb6c758-65d7-40ce-be57-3627cee7ef0a" width="80%"/>
   <p align="left"><b>Figure 3:</b> Visual comparison of ultra-low-light satellite restoration. Compared to state-of-the-art baselines, ULSIR achieves the highest PSNR (23.80 dB) and restores sharp structural details (e.g., vehicles and road textures) without distortions. Notably, diffusion-based methods (Diff-Retinex++, ReDDiT) introduce severe texture inconsistencies under extreme noise, while lightweight CNNs (DFFN, SCI++) fail to recover recognizable structures. ULSIR mathematically ensures strict geographical fidelity through its single-feed-forward dual-frequency design.</p>
 
 
