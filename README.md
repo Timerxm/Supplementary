@@ -61,7 +61,7 @@
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | PSNR (dB) | 22.91 | 23.35 | 23.61 | **23.80** | 23.69 | 23.42 |
 
-  <p align="left"><b>Table 3:</b> Table 3. Sensitivity analysis of the Laplacian loss weight ($\lambda_{Lap}$). We evaluate $\lambda_{Lap} \in [1, 100]$ to balance gradient magnitudes second-order structural supervision. The inverted-U curve validates that $\lambda_{Lap}=50$ optimally aligns high-frequency gradients without over-amplifying sensor noise, achieving the peak PSNR of 23.80 dB.</p>
+  <p align="left"><b>Table 3:</b> Sensitivity analysis of the Laplacian loss weight ($\lambda_{Lap}$). We evaluate $\lambda_{Lap} \in [1, 100]$ to balance gradient magnitudes second-order structural supervision. The inverted-U curve validates that $\lambda_{Lap}=50$ optimally aligns high-frequency gradients without over-amplifying sensor noise, achieving the peak PSNR of 23.80 dB.</p>
 
 </div>
 
@@ -109,7 +109,7 @@
 | **ULSIR (Ours)** | **Freq-CNN (Dual)** | **14.141** | **29.114** | **64.30** | **23.80** | **2823.41** | **103.41** |
 
 
-  <p align="left"><b>Table 4:</b> Computational complexity and resource analysis. Evaluated on 256x256 patches, ULSIR successfully bypasses the memory explosions of Transformer-based methods (LLFormer/URWKV $>35$ GB), requiring only 2.8 GB for training. Furthermore, ULSIR achieves the highest PSNR (23.80 dB) with significantly lower inference memory (103.41 MB) and latency (64.30 ms), offering an optimal trade-off for satellite ground-station deployment.</p>
+  <p align="left"><b>Table 5:</b> Computational complexity and resource analysis. Evaluated on 256x256 patches, ULSIR successfully bypasses the memory explosions of Transformer-based methods (LLFormer/URWKV $>35$ GB), requiring only 2.8 GB for training. Furthermore, ULSIR achieves the highest PSNR (23.80 dB) with significantly lower inference memory (103.41 MB) and latency (64.30 ms), offering an optimal trade-off for satellite ground-station deployment.</p>
 
 
 
