@@ -31,8 +31,8 @@
 | Methods | Architecture Type | Params (M) | FLOPs (G) | Time (ms) | PSNR (dB) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | LEDNet | Pure CNN | 7.405 | 38.572 | 8.40 | 23.23 |
-| LLFormer | Transformer | 24.518 | 22.035 | 90.80 | 22.95 |
-| RetinexFormer | Transformer | 4.817 | 51.055 | 59.67 | 22.57 |
+| LLFormer | Transformer | 4.817 | 51.055 | 59.67 | 22.57 |
+| RetinexFormer | Transformer | 24.518 | 22.035 | 90.80 | 22.95 |
 | DFFN | Pure CNN | 2.577 | 15.965 | 10.68 | 16.43 |
 | SCI++ | Pure CNN | 0.023 | 2.960 | 1.89 | 12.89 |
 | DarkIR | Pure CNN | 3.309 | 7.117 | 71.19 | 23.24 |
