@@ -139,7 +139,7 @@
 | WAM-FAM (Reversed) | 22.89 | 0.625 |
 | **ULSIR (Ours)** | **23.80** | **0.682** |
 
-    <p align="left"><b>Table 6:</b> Ablation study on architectural design and module sequence. ULSIR (Ours) achieves the best performance. Notably, reversing the sequence (WAM-FAM) leads to a significant performance drop, confirming that global illumination rectification is a strict physical prerequisite for precise local denoising.</p>
+  <p align="left"><b>Table 6:</b> Ablation study on architectural design and module sequence. ULSIR achieves the best performance. Notably, reversing the sequence (WAM-FAM) leads to a significant performance drop, confirming that global illumination rectification is a strict physical prerequisite for precise local denoising.</p>
 
 </div>
 
