@@ -127,7 +127,18 @@
   <img width="14031" height="4555" alt="ullrisys_01" src="https://github.com/user-attachments/assets/7f5a0836-54a5-495f-9104-e44cb5a288ac" />
   <p align="left"><b>Figure 5:</b> Visual results on real-world Jilin-1 imagery. Compared to SOTA methods, ULSIR restores sharper structural details without over-smoothing. This seamless generalization to raw, unpaired data confirms that our physics-based modeling faithfully captures real degradation, demonstrating its practical deployment value.</p>
 
-  
+</div>
+
+---
+
+| Methods | PSNR↑ | SSIM↑ |
+| :--- | :---: | :---: |
+| Only FAM | 23.54 | 0.668 |
+| Only WAM | 23.44 | 0.676 |
+| WAM-FAM (Reversed) | 22.89 | 0.625 |
+| **ULSIR (Ours)** | **23.80** | **0.682** |
+
+    <p align="left"><b>Table 6:</b> Ablation study on architectural design and module sequence. ULSIR (Ours) achieves the best performance. Notably, reversing the sequence (WAM-FAM) leads to a significant performance drop, confirming that global illumination rectification is a strict physical prerequisite for precise local denoising.</p>
 
 
 
