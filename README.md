@@ -117,7 +117,7 @@
 ---
 <p align="center">
   <img width="558" height="1260" alt="Seg" src="https://github.com/user-attachments/assets/fc59abb5-6c70-4eb2-95f9-65fa948a415e" />
-  <p align="left"><b>Figure 4:</b> Downstream building footprint segmentation results. ULSIR produces clearer semantic masks and sharper boundaries than SOTA methods (e.g., DarkIR, URWKV), which suffer from fragmented edges or false positives. Given the scarcity of annotated ultra-low-light datasets, our results demonstrate ULSIR’s potential to enable high-level vision tasks in extreme nocturnal environments, establishing a segmentation foundation for future research.</p>
+  <p align="left"><b>Figure 4:</b> Downstream building footprint segmentation results. ULSIR produces clearer semantic masks and sharper boundaries than SOTA methods (e.g., DarkIR, URWKV), which suffer from fragmented edges or false positives. Given the scarcity of annotated ultra-low-light datasets, our results demonstrate ULSIR’s potential to enable high-level vision tasks in extreme nocturnal environments, opening up a new research direction for future exploration.</p>
 
   
 
