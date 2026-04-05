@@ -97,6 +97,7 @@
 
 ---
 <div align="center">
+
 | Methods | Architecture Type | Params (M) | FLOPs (G) | Time (ms) | PSNR (dB) | Train GPU Memory (MB) | Test GPU Memory (MB) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | LEDNet | Pure CNN | 7.405 | 38.572 | 8.40 | 23.23 | 3790.43 | 415.06 |
@@ -140,8 +141,6 @@
 | **ULSIR (Ours)** | **23.80** | **0.682** |
 
   <p align="left"><b>Table 6:</b> Ablation study on architectural design and module sequence. ULSIR achieves the best performance. Reversing the sequence (WAM-FAM) leads to a significant performance drop, confirming that global illumination rectification is a strict physical prerequisite for precise local denoising.</p>
-
-</div>
 
 
 
