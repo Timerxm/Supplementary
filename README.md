@@ -125,7 +125,7 @@
 
 ---
 <p align="center">
-  <img width="14031" height="4555" alt="ullrisys_01" src="https://github.com/user-attachments/assets/7f5a0836-54a5-495f-9104-e44cb5a288ac" />
+  <img alt="ullrisys_01" src="https://github.com/user-attachments/assets/7f5a0836-54a5-495f-9104-e44cb5a288ac" width="80%"/>
   <p align="left"><b>Figure 5:</b> Visual results on real-world Jilin-1 imagery. Compared to SOTA methods, ULSIR restores sharper structural details without over-smoothing. This seamless generalization to raw, unpaired data confirms that our physics-based modeling faithfully captures real degradation, demonstrating its practical deployment value.</p>
 
 </div>
