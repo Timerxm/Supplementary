@@ -46,7 +46,7 @@
 
 ---
 <div align="center">
-  
+
   <img alt="aligen8M" src="https://github.com/user-attachments/assets/637c6810-5162-43f5-9375-2f8f2dfb13b0" width="70%"/>
   <p align="left"><b>Figure 2:</b> Visualization of adaptive wavelet soft-thresholding ($t_k$). By visualizing intermediate LH/HL sub-bands, we demonstrate that $t_k$ acts as an effective separator: background noise is effectively zeroed out while structural boundaries remain entirely intact. This dynamic self-calibration prevents over-smoothing, ensuring that fine textures are preserved during the denoising process.</p>
 
@@ -115,7 +115,7 @@
 </div>
 
 ---
-
+<p align="center">
   <img width="558" height="1260" alt="Seg" src="https://github.com/user-attachments/assets/fc59abb5-6c70-4eb2-95f9-65fa948a415e" />
   <p align="left"><b>Figure 4:</b> Visualization of downstream building footprint segmentation results. Compared with other SOTA methods, ULSIR produces clearer semantic masks and sharper boundaries. While methods like DarkIR and URWKV suffer from fragmented boundaries or false positives due to over-smoothing/residual noise, our results maintain high structural consistency with the GT. Notably, given the current scarcity of annotated ultra-low-light satellite datasets, this experiment also highlights the potential of ULSIR in enabling high-level vision tasks in extreme environments, pointing toward a promising future research direction for nocturnal Earth observation.</p>
 
